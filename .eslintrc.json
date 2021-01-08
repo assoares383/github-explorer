@@ -25,6 +25,8 @@
     "prettier"
   ],
   "rules": {
+    "no-use-before-define": "off",
+    "react/jsx-one-expression-per-line": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
@@ -36,9 +38,6 @@
       }
     ],
     "import/prefer-default-export": "off",
-    "no-use-before-define": "off",
-    "camelcase": "off",
-    "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
@@ -53,7 +52,9 @@
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "@typescript-eslint/camelcase": "off",
+    "camelcase": "off"
   },
   "settings": {
     "import/resolver": {
