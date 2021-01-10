@@ -31,7 +31,10 @@ export const RepositoryInfo = styled.section`
   }
 
   img {
-    margin-left: 24px;
+    margin-right: 24px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
 
     strong {
       font-size: 36px;
